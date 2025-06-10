@@ -1,0 +1,34 @@
+.video{
+    width: 1000px;
+    height: auto;
+    display:block;
+    margin:auto;
+   
+}
+
+
+#tbl{
+    color: black;
+}
+
+#par{
+    text-align: center;
+}
+
+#ull{
+    text-align: left;
+    
+}
+
+
+#bb{
+    background-color: darkgreen;
+}
+.head2{
+    background-color: aliceblue;
+    width: 80%;
+    line-height: 1.5;
+    padding: 20px;
+    margin: 15px auto;
+
+}

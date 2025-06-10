@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(103, 230, 230);
+    padding: 20px;
+}
+
+h1{
+    color: rgb(0, 157, 255);
+}
+.head2{
+    background-color: aliceblue;
+    width: 80%;
+    line-height: 1.5;
+    padding: 20px;
+    margin: 15px auto;
+
+}

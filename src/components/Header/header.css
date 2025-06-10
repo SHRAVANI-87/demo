@@ -1,0 +1,14 @@
+.head{
+    background-color: rgb(24, 91, 225);
+    color:white;
+    
+}
+.space{
+    color:white;
+    justify-content:end;
+    padding: 20px;
+}
+.color{
+    color: white;
+    padding: 20px;
+}

@@ -1,5 +1,11 @@
 .homepage{
     background-color: rgb(66, 236, 227);
+    position:relative;
+    width: 1000px;
+    height:350;
+    overflow:hidden;
+    margin-bottom: 40px;
+    border-radius: 8px;
 }
 h1{
     text-align: center;
@@ -52,4 +58,8 @@ li{
     background:green;
     color:white;
     margin-left: 45%;
+}
+
+.welcome{
+    color:rgb(51, 161, 154);
 }

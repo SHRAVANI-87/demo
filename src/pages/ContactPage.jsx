@@ -4,7 +4,7 @@ import Footer from '../components/Footer/Footer'
 import './ContactPage.css'
 const ContactPage = () =>{
     return(
-        <div>
+        <div className="contact">
                 <Header/>
                 <div className='head2'>
                 <h1>Contact Us</h1>

@@ -28,7 +28,16 @@
     background-color: aliceblue;
     width: 80%;
     line-height: 1.5;
-    padding: 20px;
     margin: 15px auto;
 
+}
+.course{
+    background-color: rgb(66, 236, 227);
+    position:relative;
+    width: 1500px;
+    height:350;
+    overflow:hidden;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    
 }

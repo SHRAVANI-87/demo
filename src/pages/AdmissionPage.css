@@ -21,3 +21,16 @@
     color: black;
 }
 
+.admission{
+
+    background-color: rgb(66, 236, 227);
+    position:relative;
+    width: 1500px;
+    height:350;
+    overflow:hidden;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    
+}
+
+

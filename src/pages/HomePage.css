@@ -1,7 +1,7 @@
 .homepage{
     background-color: rgb(66, 236, 227);
     position:relative;
-    width: 1300px;
+    width: 1500px;
     height:350;
     overflow:hidden;
     margin-bottom: 20px;
@@ -24,10 +24,6 @@ p{
 }
 li{
     color:rgba(72, 67, 67, 0.96);
-}
-.explore{
-    background-color: rgb(11, 115, 25);
-    color: blue;
 }
 
 #ee{

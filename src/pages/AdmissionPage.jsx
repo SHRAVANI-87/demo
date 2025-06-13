@@ -5,7 +5,7 @@ import './AdmissionPage.css'
 const AdmissionPage = () => {
     return(
 
-            <div>
+            <div className="admission">
                 <Header/>
                 <div className='head2'>
                 <h1>Admission at Vivekanand College</h1>

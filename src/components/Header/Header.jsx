@@ -25,6 +25,32 @@ const Header=()=> {
                     <span className="hamburger2"></span>
                 </button>
 
+            <nav className={`drawer-nav ${isDrawerOpen ? "open" : ""}`}>
+                <button className="close-drawer-btn" onClick={toggleDrawer}>
+                  ✕
+                </button>
+                <Link to="/HomePage" className="nav-item" onClick={closeDrawer}>
+                  Home
+                </Link>
+                <Link to="/AboutPage" className="nav-item" onClick={closeDrawer}>
+                  About
+                </Link>
+                <Link to="/CoursesPage" className="nav-item" onClick={closeDrawer}>
+                  Courses
+                </Link>
+                <Link to="/ContactPage" className="nav-item" onClick={closeDrawer}>
+                  Contact
+                </Link>
+                <Link to="/AdmissionPage" className="nav-item btn primary-btn" onClick={closeDrawer}>
+                  Apply Now!
+                </Link>
+           </nav>
+
+              {isDrawerOpen && (
+        <div className="drawer-overlay" onClick={toggleDrawer}></div>
+      )
+      }
+
                    
         </header>
     );

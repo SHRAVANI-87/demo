@@ -1,16 +1,27 @@
 body{
-    background-color: rgb(103, 230, 230);
+    
     padding: 20px;
 }
 
 h1{
     color: rgb(0, 157, 255);
 }
-.head2{
+.about{
     background-color: aliceblue;
     width: 80%;
     line-height: 1.5;
     padding: 20px;
     margin: 15px auto;
-
+    background-color: rgb(66, 236, 227);
+    position:relative;
+    width: 1500px;
+    height:350;
+    overflow:hidden;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    
 }
+
+
+
+

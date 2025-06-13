@@ -5,7 +5,7 @@ import './AboutPage.css'
 const AboutPage = () => {
     return(
         
-        <div>
+        <div className="about">
             <Header/>
             <div className='head2'>
             <h1>About Vivekanand College</h1>

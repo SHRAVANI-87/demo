@@ -2,9 +2,10 @@ import React from 'react'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 import './CoursesPage.css'
+
 const CoursesPage = () =>{
     return(
-    <div>
+    <div className="course">
         <Header/>
         <div className='head2'>
         <h1>Our Academic Programs</h1>

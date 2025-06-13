@@ -10,10 +10,12 @@ const HomePage = () => {
                 <Header/>
                 
                 <div className='head2'>
-                <img src="/images/vck.jpg" alt="image" height={"300"} width="795"></img>
-                    
-                <h1 ClassName="welcome">Welcome to Vivekanand College !</h1>
+                    <div className="overlay">   
+                        <img src="/images/vck.jpg" alt="image" height={"300"} width="960"></img>
+                        <div class="center"><h1 ClassName="welcome">Welcome to Vivekanand College !</h1></div>
 
+                    </div>
+                
                 <h3 ClassName="your">Your journey to excellence starts here.</h3>
 
                 <p>**Vivekanand College is a premier educational institution dedicated to fostering academic
@@ -37,8 +39,8 @@ const HomePage = () => {
 
                     <div ClassName="image">
                 
-                            <img src="/images/students-studying-DbLGuwF_.jpeg"height="400" width="400" alt="vck"></img>
-                            <img src="/images/campus-life-Crkero7B.jpg" height="400" width="400" alt="vck2"></img>
+                            <img src="/images/students-studying-DbLGuwF_.jpeg"height="400" width="450" alt="vck"></img>
+                            <img src="/images/campus-life-Crkero7B.jpg" height="400" width="450" alt="vck2"></img>
                      </div>
                 <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning
                      experience and personal growth.</p>
@@ -50,7 +52,7 @@ const HomePage = () => {
                         </div>
 
 
-                            </div>
+            </div>
                             <Footer/>
             </div>
 

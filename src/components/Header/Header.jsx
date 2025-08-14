@@ -10,7 +10,13 @@ const Header=()=> {
     setIsDrawerOpen(false);
   };
     return (
+
+      
         <header className='head'>
+          {" "}
+          <div className="clgname">
+            <Link to="/">Vivekanand College</Link>{" "}
+          </div>
             <nav className='space'>
                 <Link to="/" className='color'>Home</Link>
                 <Link to="/AboutPage"className='color'>About</Link>
@@ -18,10 +24,10 @@ const Header=()=> {
                 <Link to="/ContactPage"className='color'>Contact</Link>
                 <Link to="/AdmissionPage" className='btn'>Apply Now!</Link>
             </nav>   
-                <button className="hamburger" onClick={toggleDrawer}>
-                    <span className="hamburger2"></span>
-                    <span className="hamburger2"></span>
-                    <span className="hamburger2"></span>
+                <button className="hamburger-menu" onClick={toggleDrawer}>
+                    <span className="hamburger-icon"></span>
+                    <span className="hamburger-icon"></span>
+                    <span className="hamburger-icon"></span>
                 </button>
 
             <nav className={`drawer-nav ${isDrawerOpen ? "open" : ""}`}>
